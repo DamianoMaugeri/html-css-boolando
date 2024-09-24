@@ -40,6 +40,9 @@ img {
     flex-wrap: wrap;
 }
 
+body{
+    position: relative;
+}
 
 /* CARD */
 
@@ -124,18 +127,77 @@ img {
     background-color: rgba(0,0,0,0.4);
 }
 
-
-
-/* FEATURES */
-
-
-
+main{
+    padding: 110px 0px 50px 0px;
+}
 
 
 
+/* header */
+
+header .row{
+    justify-content: space-between;
+    
+}
+
+.main-nav{
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    
+}
+
+header{
+    background-color: orange;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-menu, .nav-button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.nav-menu a, .nav-button a{
+    padding: 10px 5px;
+}
+
+.brand-logo{
+    width: 200px;
+
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px 0px;
+    font-size: 16px;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media a{
+    margin-right: 10px;
+    font-size: 25px;
 
 
+}
 
+.social-link, .society{
+    margin: 10px 0px;
+}
 
 
 
